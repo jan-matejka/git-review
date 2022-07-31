@@ -1,5 +1,9 @@
 #!/usr/bin/zsh
 
+# todo: git-review should also facilitate:
+# - review on a range (master..wip) and limited by file path modified rst/foobar.rst (preparing
+#   foobar release candidate)
+
 SELF="${0##*/}"
 
 local rev=${1}
