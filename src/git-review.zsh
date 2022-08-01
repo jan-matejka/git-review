@@ -3,6 +3,9 @@
 # todo: git-review should also facilitate:
 # - review on a range (master..wip) and limited by file path modified rst/foobar.rst (preparing
 #   foobar release candidate)
+# - This is actually simpler::
+#     g lgh master..wip -- <filepath> | xargs git show
+#   and seems to work just as well if not better
 
 SELF="${0##*/}"
 
